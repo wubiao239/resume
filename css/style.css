@@ -29,7 +29,7 @@ body {
 
 body {
     font-size: 12px;
-    font-family: "Ã¥Â®â€¹Ã¤Â½â€œ", "Arial Narrow", HELVETICA;
+    font-family: "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", "Arial Narrow", HELVETICA;
 }
 
 ul li {
@@ -54,6 +54,7 @@ ul li {
 }
 
 .header {
+    margin-top: 40px;
     width: 100%;
     height: 275px;
     background: url(../img/header-bg.jpg) no-repeat;
@@ -69,7 +70,7 @@ ul li {
     color: #ffffff;
     text-align: center;
     margin: 0 auto;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     position: relative;
 }
 
@@ -113,7 +114,7 @@ ul li {
     height: 220px;
     border-radius: 140px;
     -moz-border-radius: 140px; /* Firefox */
-    -webkit-border-radius: 140px; /* Safari 和 Chrome */
+    -webkit-border-radius: 140px; /* Safari Ã¥â€™Å’ Chrome */
     behavior: url(ie-css3.htc);
     margin: 10px auto;
     overflow: hidden;
@@ -208,7 +209,7 @@ ul li {
     position: relative;
     border-radius: 50%;
     -moz-border-radius: 50%; /* Firefox */
-    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    -webkit-border-radius: 50%; /* Safari Ã¥â€™Å’ Chrome */
     behavior: url(ie-css3.htc);
     background: #a5aaaa;
 }
@@ -237,7 +238,7 @@ ul li {
     position: absolute;
     border-radius: 50%;
     -moz-border-radius: 50%; /* Firefox */
-    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    -webkit-border-radius: 50%; /* Safari Ã¥â€™Å’ Chrome */
     behavior: url(ie-css3.htc);
     top: 0px;
     left: 0px;
@@ -250,7 +251,7 @@ ul li {
     position: absolute;
     border-radius: 50%;
     -moz-border-radius: 50%; /* Firefox */
-    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    -webkit-border-radius: 50%; /* Safari Ã¥â€™Å’ Chrome */
     behavior: url(ie-css3.htc);
     top: 0px;
     left: -75px;
@@ -270,7 +271,7 @@ ul li {
     height: 80%;
     border-radius: 50%;
     -moz-border-radius: 50%; /* Firefox */
-    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    -webkit-border-radius: 50%; /* Safari Ã¥â€™Å’ Chrome */
     behavior: url(ie-css3.htc);
     background: #FFF;
     position: absolute;
@@ -324,7 +325,7 @@ ul li {
     margin-left: -4px;
     border-radius: 50%;
     -moz-border-radius: 50%; /* Firefox */
-    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    -webkit-border-radius: 50%; /* Safari Ã¥â€™Å’ Chrome */
     behavior: url(ie-css3.htc);
     box-shadow: 0 0 0 5px #ccc;
 }
@@ -407,6 +408,30 @@ font-weight:700;
 }
 .photoshop .graph{
     width:35%;
+}
+.dreamweaver .graph{
+    width:50%;
+}
+.github .graph{
+    width:60%;
+}
+.navicate .graph{
+    width:60%;
+}
+.mysql .graph{
+    width:50%;
+}
+.eclipse .graph{
+     width:60%;
+
+}
+.gvim .graph{
+     width:40%;
+
+}
+.linux .graph{
+     width:10%;
+
 }
 .soft .caption{
     color:#444;
