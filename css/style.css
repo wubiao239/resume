@@ -29,7 +29,7 @@ body {
 
 body {
     font-size: 12px;
-    font-family: "宋体", "Arial Narrow", HELVETICA;
+    font-family: "Ã¥Â®â€¹Ã¤Â½â€œ", "Arial Narrow", HELVETICA;
 }
 
 ul li {
@@ -82,7 +82,7 @@ ul li {
     border: 2px solid #ffffff;
     padding: 7px 0;
     width: 300px;
-    margin: 10px auto -1px;
+    margin: 20px auto -1px;
     font-size: 20px;
 }
 
@@ -112,6 +112,9 @@ ul li {
     width: 220px;
     height: 220px;
     border-radius: 140px;
+    -moz-border-radius: 140px; /* Firefox */
+    -webkit-border-radius: 140px; /* Safari 和 Chrome */
+    behavior: url(ie-css3.htc);
     margin: 10px auto;
     overflow: hidden;
 }
@@ -204,6 +207,9 @@ ul li {
     height: 150px;
     position: relative;
     border-radius: 50%;
+    -moz-border-radius: 50%; /* Firefox */
+    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    behavior: url(ie-css3.htc);
     background: #a5aaaa;
 }
 
@@ -230,6 +236,9 @@ ul li {
     height: 150px;
     position: absolute;
     border-radius: 50%;
+    -moz-border-radius: 50%; /* Firefox */
+    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    behavior: url(ie-css3.htc);
     top: 0px;
     left: 0px;
     background: #2c3642;
@@ -240,6 +249,9 @@ ul li {
     height: 150px;
     position: absolute;
     border-radius: 50%;
+    -moz-border-radius: 50%; /* Firefox */
+    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    behavior: url(ie-css3.htc);
     top: 0px;
     left: -75px;
     background: #2c3642;
@@ -257,6 +269,9 @@ ul li {
     width: 80%;
     height: 80%;
     border-radius: 50%;
+    -moz-border-radius: 50%; /* Firefox */
+    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    behavior: url(ie-css3.htc);
     background: #FFF;
     position: absolute;
     text-align: center;
@@ -296,6 +311,113 @@ ul li {
 
 .work h2 {
     margin-top: 25px;
+}
+
+.point-time {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 5px;
+    left: 20%;
+    background: #2c3642;
+    margin-left: -4px;
+    border-radius: 50%;
+    -moz-border-radius: 50%; /* Firefox */
+    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    behavior: url(ie-css3.htc);
+    box-shadow: 0 0 0 5px #ccc;
+}
+.work-experience article {
+  position: relative;
+}
+.work-experience article > h3 {
+  width: 15%;
+  height: 20px;
+  line-height: 20px;
+  text-align: right;
+  font-size: 1.4em;
+  color: #1d1d1d;
+  padding: 10px 0 20px;
+}
+.work-experience article section {
+  padding: 0 0 17px;
+  position: relative;
+}
+.work-experience article section:before {
+  content: "";
+  width: 5px;
+  top: 17px;
+  bottom: -17px;
+  left: 20%;
+  background: #e6e6e6;
+  position: absolute;
+}
+.work-experience article section:last-child:before {
+  display: none;
+}
+.work-experience article section time {
+  padding-left:10px;
+  color: #fff;
+  font-weight: 600;
+  width: 13%;
+  line-height: 20px;
+  height: 20px;
+  background-color: #2c3642;
+  position: absolute;
+  
+}
+.work-experience article section time > span {
+  display: block;
+  /* text-align: right; */
+}
+.work-experience article section aside {
+  color: #3a3a38;
+  margin-left: 25%;
+  /* padding-bottom: 15px; */
+}
+p.things {
+    font-weight: 600;
+    color: #666;
+}
+.work-experience article section .brief {
+  color: #9f9f9f;
+}
+.soft{
+    padding-left:25px;
+}
+.soft .col-1{
+
+}
+
+#graphbox{
+border:2px solid #010101;
+width:250px;
+background-color:#f8f8f8;
+
+}
+
+.graph{
+position:relative;
+background-color:#010101;
+height:10px;
+font-size:13px;
+font-weight:700;
+
+}
+.photoshop .graph{
+    width:35%;
+}
+.soft .caption{
+    color:#444;
+    margin-bottom:5px;
+    width:600px;
+}
+#progress li{
+    width:50%;
+    float:left;
+    height:30px;
+    margin-bottom:10px;
 }
 
 .footer {
