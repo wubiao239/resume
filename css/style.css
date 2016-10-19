@@ -25,13 +25,12 @@ html
     padding: 0;
 }
 
-body {
-    background: url(../img/background.jpg) repeat;
-}
+
 
 body {
     font-size: 12px;
-    font-family: "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", "Arial Narrow", HELVETICA;
+    background: url(../img/background.jpg) repeat;
+    
 }
 
 ul li {
@@ -438,7 +437,7 @@ font-weight:700;
 .soft .caption{
     color:#444;
     margin-bottom:5px;
-    width:600px;
+    //width:600px;
 }
 #progress li{
     width:50%;
@@ -487,6 +486,9 @@ font-weight:700;
     width: 90%;
    float:none;
    
+}
+.intent{
+    width:100%;
 }
 
 }
