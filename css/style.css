@@ -18,18 +18,19 @@ fieldset,
 legend,
 input,
 textarea,
-select {
+select,
+html
+ {
     margin: 0;
     padding: 0;
 }
 
-body {
-    background: url(../img/background.jpg) repeat;
-}
+
 
 body {
     font-size: 12px;
-    font-family: "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", "Arial Narrow", HELVETICA;
+    background: url(../img/background.jpg) repeat;
+    
 }
 
 ul li {
@@ -436,7 +437,7 @@ font-weight:700;
 .soft .caption{
     color:#444;
     margin-bottom:5px;
-    width:600px;
+    //width:600px;
 }
 #progress li{
     width:50%;
@@ -450,3 +451,55 @@ font-weight:700;
     height: 50px;
     background: #000000;
 }
+@media all and (max-width:720px){
+    .wrapper{
+       
+        width:100%;
+    }
+    .title{
+        width:80%;
+    }
+    .sidebar{
+        width:100%;
+        position:static;
+        height:auto;
+        display:block;
+    }
+    .content{
+        margin-left:0;
+        height:auto;
+        display:block;
+    }
+    .portrait{
+        margin-top:0;
+       
+    }
+    #skill-sheet li {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-right:0;
+    }
+    #graphbox{
+    width:100%;
+}
+    #progress li {
+    width: 90%;
+   float:none;
+   
+}
+.intent{
+    width:100%;
+}
+
+}
+@media all and (max-width:600px){
+    #progress li {
+    width: 90%;
+   
+}
+
+
+
+}
+
+
